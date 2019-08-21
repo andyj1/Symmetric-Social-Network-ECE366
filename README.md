@@ -1,5 +1,5 @@
-### Symmetric Social Network Service Platform: DISC
-- by Ariana Freitag, Andy Jeong, Leart Krasniqi, and Dhvanil Shah
+### Symmetric Social Network Service Platform: Disc.cool
+- Contributors: Ariana Freitag, Andy Jeong, Leart Krasniqi, and Dhvanil Shah
 
 #### Project Description
 - Symmetric Social Network Service Platform designed to provide a medium through which songs could be shared across public/ connected users.
@@ -18,6 +18,28 @@ mvn package         // compile, run tests, and produce deployable artifact (fat 
 java -jar ${path for fat Jar file} App -Dhttp.server.port=${port} // specify path and port address
 // by default, the bankend server will run on localhost with above command
 ```
+*******
+#### Overview of Service
+- Token-based persistent login (entry-point)
+![Login](img/login.png)
+![Token](img/token.png)
+- Search for a song, and add a post with message
+![SongSearch](img/songsearch.png)
+- Search for a user
+![UserSearch](img/usersearch.png)
+- Send Friend Request
+![FriendRequestSent](img/friendrequestsent.png)
+- Receive Friend Request
+![FriendRequestReceived](img/friendrequestreceived.png)
+- Retrieve recommendation from the song in a post
+![Recommendation](img/recommendation.png)
+- Click on album cover to link to Spotify song page
+![SongLink](img/linktospotify.png)
+- View friend's profile by clicking friend's username, or your own by clicking the user icon
+![Profile](img/bio.png)
+
+
+
 ********
 ##### Explanation of FrontEnd
 The front end consists of components that can be reused on different pages. Right now we have a home page, sign in page, and sign up page.  
