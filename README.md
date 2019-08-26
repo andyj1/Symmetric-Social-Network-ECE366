@@ -3,7 +3,15 @@
 
 #### Project Description
 - Symmetric Social Network Service Platform designed to provide a medium through which songs could be shared across public/ connected users.
-- Track/album/artist access(fetching) will be possible through open-source song service APIs (currently only Spotify)
+- Track/album/artist access available through open-source song service APIs (currently only Spotify)
+- Key features
+	- Users can create accounts and log in and out of the website 
+	- Users can edit their publicly displayed profile (at least 3 fields)
+	- Users can send requests to connect with other users
+	- Users can confirm others’ requests to connect 
+	- Connected users can post on each other’s profiles 
+	- Users can view all the posts on their friends’ profiles
+	- Properly encrypted login (token-based session)
 - Language: Java, JavaScript
 - Tools: Maven
 
